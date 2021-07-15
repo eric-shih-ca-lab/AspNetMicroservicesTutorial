@@ -3,3 +3,4 @@ docker run -d -p 6379:6379 --name aspnetrun-redis redis
 docker logs -f aspnetrun-redis
 docker exec -it aspnetrun-redis /bin/bash
 #redis-cli
+-- you can then use get/set/delete command in redis-cli environment
