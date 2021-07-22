@@ -34,6 +34,8 @@ namespace Ordering.Api.Controllers
         }
 
         // testing purpose
+        // the real feature of CheckoutOrder is implemented in consuming message queue
+        // which is defined in BasketCheckoutConsumer
         [HttpPost(Name = "CheckoutOrder")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<ActionResult<int>> CheckoutOrder([FromBody] CheckoutOrderCommand command)
