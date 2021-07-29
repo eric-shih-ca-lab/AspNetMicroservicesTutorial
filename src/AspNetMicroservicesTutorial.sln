@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "ApiGateways\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{1DBDC32D-F824-4B43-8285-DEAE7E398D77}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{A0EF83CE-A51A-4626-A640-BA0899E9C738}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{F6D95DF1-FDBB-47D7-A84E-8DB33CC47124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +99,10 @@ Global
 		{1DBDC32D-F824-4B43-8285-DEAE7E398D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DBDC32D-F824-4B43-8285-DEAE7E398D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DBDC32D-F824-4B43-8285-DEAE7E398D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D95DF1-FDBB-47D7-A84E-8DB33CC47124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D95DF1-FDBB-47D7-A84E-8DB33CC47124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D95DF1-FDBB-47D7-A84E-8DB33CC47124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D95DF1-FDBB-47D7-A84E-8DB33CC47124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +123,7 @@ Global
 		{E5D3FA9F-B422-42B2-982A-E1B53B8977AE} = {8F7DFAB7-3E5A-473C-A93B-2A547F9875DD}
 		{F0566276-9817-40F6-84F8-D4DAC1884CE8} = {87FBE1F3-62A7-4332-956F-8639EA9008B9}
 		{1DBDC32D-F824-4B43-8285-DEAE7E398D77} = {87FBE1F3-62A7-4332-956F-8639EA9008B9}
+		{F6D95DF1-FDBB-47D7-A84E-8DB33CC47124} = {A0EF83CE-A51A-4626-A640-BA0899E9C738}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B295109-FF57-40FE-8096-D3E84472F67B}
